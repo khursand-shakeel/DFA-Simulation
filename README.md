@@ -11,7 +11,7 @@ Tools/Software Requirement
 ## Description
 A DFA is defined as an abstract mathematical concept, but due to the deterministic nature of a DFA, it is implementable in hardware and software for solving various problems. For example, a DFA can model software that decides whether or not online user-input such as email addresses are valid. DFAs recognize exactly the set of regular languages which are, among other things, useful for doing lexical analysis and pattern matching.
 
-## 1. Consider the following Regular Expression:
+### 1. Consider the following Regular Expression:
             a(bb)*bc
 
 a. Draw a DFA for the above RE.
@@ -23,13 +23,16 @@ c. Implement this DFA in C/C++/Java.
 d. Test your implementation using the following inputs:
 abc, abbc, abcd, abbbc, abbbbc
 
-## 2. Consider the following language:
-  L(M) = {w | w € {a, b}* and contains even number of a’s and b’s}
+### 2. Consider the following language:
+          L(M) = {w | w € {a, b}* and contains even number of a’s and b’s}
+     
 a. Draw a DFA for the above language
+   
    i. Your implementation should validate the input string for alphabet
    i.e. Σ = {a, b}, before using it in the DFA.
    ii. Your first implementation of DFA should use goto statements only.
    iii. Your second implementation of DFA should use switch statement
    instead of the goto’s.
-b. Test your implementation using the following inputs:
-aa, ab, aba, abab, aabbaabb
+   
+ b. Test your implementation using the following inputs:
+   aa, ab, aba, abab, aabbaabb
